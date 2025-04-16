@@ -12,5 +12,17 @@
 }
 
 .inputs {
-    
+    display: grid;
+    grid-template-areas:
+    "input1 input2"
+    "input3 input4"
+    "input5 input6";
+}
+
+.logo{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+
 }

@@ -6,9 +6,10 @@ const SignUp = () => {
     <Box>
         <h1>Welcome!</h1>
         <h2>This is a test sign up form done in React MUI. HTML + CSS + JavaScript. This is part of a The Odin Project task.</h2>
+        <h3>Feeling curious about other works done by myself? <a href="">Click here!</a></h3>
         <List className='inputs'>
             <ListItem>
-                <TextField id="outlined-basic" label="First name" variant="outlined" />
+                <TextField className="firstName" id="outlined-basic" label="First name" variant="outlined" />
             </ListItem>
             <ListItem>
                 <TextField id="outlined-basic" label="Last name" variant="outlined" />
@@ -25,8 +26,8 @@ const SignUp = () => {
             <ListItem>
                 <TextField id="outlined-basic" label="Confirm password" variant="outlined" />
             </ListItem>
-            <Button variant="contained">Create account</Button>
         </List>
+        <Button variant="contained">Create account</Button>
         <h3>Already have an account? <a href="#">Log in</a></h3>
     </Box>
   )

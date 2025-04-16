@@ -6,8 +6,12 @@ import "../App.css";
 
 const Logo = () => {
   return (
-    <Box>
-        <img src={Odin}/>
+    <Box className="logo"
+    sx={{
+      width: '100%',
+      height: '30vh',
+    }}>
+        <img src={Odin} height={200}/>
         <Typography variant='h1' className="norseLogo">Odin</Typography>
     </Box>
   )
