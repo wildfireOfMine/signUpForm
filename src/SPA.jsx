@@ -7,27 +7,27 @@ const SPA = () => {
     <>
     <Drawer
         sx={{
-          width: '35%', // 20% del ancho
+          width: '35%',
           flexShrink: 0,
           '& .MuiDrawer-paper': {
-            width: '35%', // 20% del ancho
+            width: '35%',
             boxSizing: 'border-box',
           },
         }}
-        variant="permanent" // Sidebar fijo
+        variant="permanent"
         anchor="left"
       >
       </Drawer>
       <Drawer
       sx={{
-          width: '65%', // 20% del ancho
+          width: '65%',
           flexShrink: 0,
           '& .MuiDrawer-paper': {
-            width: '65%', // 20% del ancho
+            width: '65%',
             boxSizing: 'border-box',
           },
         }}
-        variant="permanent" // Sidebar fijo
+        variant="permanent"
         anchor="right"
         >
         <SignUp/>
