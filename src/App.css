@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Norse;
+    src: url("fonts/Norse-Bold.otf");
+}
+
+.information {
+    text-align: center;
+}
+
+.norseLogo {
+    font-family: "Norse" !important;
+}
+
+.inputs {
+    
+}

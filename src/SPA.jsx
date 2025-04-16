@@ -1,6 +1,8 @@
 import { Drawer, List, ListItem, ListItemText } from '@mui/material'
 import React from 'react'
 import SignUp from './components/SignUp'
+import Logo from './components/Logo'
+import Copy from './components/Copy'
 
 const SPA = () => {
   return (
@@ -12,11 +14,21 @@ const SPA = () => {
           '& .MuiDrawer-paper': {
             width: '35%',
             boxSizing: 'border-box',
+            backgroundImage: 'url(../public/img/unsplash.jpg)',
+            backgroundSize: 'cover',
           },
         }}
         variant="permanent"
         anchor="left"
       >
+        
+        <h3 className='information'>Picture by <a href="https://unsplash.com/es/@lin_cheng?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Cheng 
+        Lin</a> in 
+        <a href="https://unsplash.com/es/fotos/el-gran-canal-y-la-basilica-de-santa-maria-della-salva-BJmFkjQFq44?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+        Unsplash</a></h3>
+
+        <Logo/>
+      
       </Drawer>
       <Drawer
       sx={{
@@ -31,6 +43,7 @@ const SPA = () => {
         anchor="right"
         >
         <SignUp/>
+        <Copy/>
       </Drawer>
 
     </>
