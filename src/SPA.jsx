@@ -3,8 +3,11 @@ import React from 'react'
 import SignUp from './components/SignUp'
 import Logo from './components/Logo'
 import Copy from './components/Copy'
+import Background from "./img/unsplash.jpg"
 
 const SPA = () => {
+  console.log(Logo);
+  console.log(Background);
   return (
     <>
     <Drawer
@@ -14,7 +17,7 @@ const SPA = () => {
           '& .MuiDrawer-paper': {
             width: '35%',
             boxSizing: 'border-box',
-            backgroundImage: 'url(img/unsplash.jpg)',
+            backgroundImage: `url(${Background})`,
             backgroundSize: 'cover',
           },
         }}
