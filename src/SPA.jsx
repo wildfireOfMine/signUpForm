@@ -6,8 +6,6 @@ import Copy from './components/Copy'
 import Background from "./img/unsplash.jpg"
 
 const SPA = () => {
-  console.log(Logo);
-  console.log(Background);
   return (
     <>
     <Drawer
