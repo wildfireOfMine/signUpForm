@@ -38,16 +38,28 @@ a{
     text-align: center;
 }
 
-.inputs {
-    padding: 20px !important;
+form{
     width: 100%;
-    margin: 20px !important;
+    background-color: rgb(167, 167, 167);
+    padding: 20px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
     display: grid;
     grid-template-areas:
     "input1 input2"
     "input3 input4"
     "input5 input6";
     background-color: rgb(167, 167, 167);
+}
+
+form > button {
+    display: inline-flex;
+    justify-content: center;
+    align-self: center;
+    width: auto;
 }
 
 .copy{
