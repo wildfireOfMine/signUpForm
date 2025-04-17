@@ -1,7 +1,7 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
-import Odin from "../../public/img/Odin.png"
-import Norse from "../../public/fonts/Norse-Bold.otf"
+import Odin from "../img/Odin.png"
+import Norse from "../fonts/Norse-Bold.otf"
 import "../App.css";
 
 const Logo = () => {

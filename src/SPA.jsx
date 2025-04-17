@@ -14,7 +14,7 @@ const SPA = () => {
           '& .MuiDrawer-paper': {
             width: '35%',
             boxSizing: 'border-box',
-            backgroundImage: 'url(../public/img/unsplash.jpg)',
+            backgroundImage: 'url(img/unsplash.jpg)',
             backgroundSize: 'cover',
           },
         }}
