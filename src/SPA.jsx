@@ -23,20 +23,19 @@ const SPA = () => {
       >
         
         <h3 className='information'>Picture by <a href="https://unsplash.com/es/@lin_cheng?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Cheng 
-        Lin</a> in 
-        <a href="https://unsplash.com/es/fotos/el-gran-canal-y-la-basilica-de-santa-maria-della-salva-BJmFkjQFq44?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-        Unsplash</a></h3>
+        Lin</a> in <a href="https://unsplash.com/es/fotos/el-gran-canal-y-la-basilica-de-santa-maria-della-salva-BJmFkjQFq44?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></h3>
 
-        <Logo/>
+        <a href="https://www.theodinproject.com/"><Logo/></a>
       
       </Drawer>
-      <Drawer
+      <Drawer className='sidebarRight'
       sx={{
           width: '65%',
           flexShrink: 0,
           '& .MuiDrawer-paper': {
             width: '65%',
             boxSizing: 'border-box',
+            borderLeft: '0 !important',
           },
         }}
         variant="permanent"

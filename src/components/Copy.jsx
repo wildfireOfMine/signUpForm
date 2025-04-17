@@ -3,8 +3,8 @@ import React from 'react'
 
 const Copy = () => {
   return (
-    <Box>
-        <h3>&copy; wildfireOfMine</h3>
+    <Box className='copy'>
+        <h3>&copy; <a href="https://github.com/wildfireOfMine">wildfireOfMine</a></h3>
     </Box>
   )
 }

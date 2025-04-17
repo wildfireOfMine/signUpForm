@@ -11,18 +11,50 @@
     font-family: "Norse" !important;
 }
 
-.inputs {
-    display: grid;
-    grid-template-areas:
-    "input1 input2"
-    "input3 input4"
-    "input5 input6";
-}
-
 .logo{
     display: flex;
     background-color: rgba(0, 0, 0, 0.3);
     align-items: center;
     justify-content: center;
+    color: white;
+}
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.signUp{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    padding: 0 20px;
+}
+
+.signUp > h2 {
+    text-align: center;
+}
+
+.inputs {
+    padding: 0 !important;
+    width: 100%;
+    margin: 20px -60px !important;
+    display: grid;
+    grid-template-areas:
+    "input1 input2"
+    "input3 input4"
+    "input5 input6";
+    background-color: rgb(167, 167, 167);
+}
+
+.copy{
+    text-align: center;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219) !important;
 }
