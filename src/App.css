@@ -39,9 +39,9 @@ a{
 }
 
 .inputs {
-    padding: 0 !important;
+    padding: 20px !important;
     width: 100%;
-    margin: 20px -60px !important;
+    margin: 20px !important;
     display: grid;
     grid-template-areas:
     "input1 input2"
